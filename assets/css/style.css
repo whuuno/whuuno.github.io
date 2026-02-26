@@ -297,6 +297,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff9e36;}
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
+.tech-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tech-list li::before {
+  content: "• ";
+  color: #007acc;
+  font-weight: bold;
+  margin-right: 6px;
+}
 /*.ab-list-icon */
 
 /*.single-about-img */
